@@ -12,9 +12,13 @@ Una vez que hayas descargado e instalado todas las bibliotecas necesarias y conf
 Antes de abrir el código en Arduino IDE, necesitas instalar algunas bibliotecas adicionales. Abre Arduino IDE, ve a Sketch -> Incluir Biblioteca -> Administrar Bibliotecas... y busca las siguientes bibliotecas:
 
 #ESP8266WiFi
+
 #PubSubClient
+
 #Adafruit_ADS1X15
+
 #ArduinoJson
+
 Instala estas bibliotecas si aún no están presentes en tu Arduino IDE.
 
 ##Configura el ESP8266 en Arduino IDE 🔌
