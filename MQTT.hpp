@@ -4,11 +4,11 @@
 WiFiClient espClient;
 PubSubClient client(espClient);
 
-const char *MQTT_BROKER_ADRESS = "broker.emqx.io";
-const int MQTT_PORT = 1883;
-const char *MQTT_CLIENT_NAME = "ESP8266Externo";
-const char *MQTT_USERNAME = "pube";
-const char *MQTT_PASSWORD = "toor";
+const char *MQTT_BROKER_ADRESS = "nombre del broker";
+const int MQTT_PORT = 1884; //default
+const char *MQTT_CLIENT_NAME = "nombredelcliente";
+const char *MQTT_USERNAME = "username";
+const char *MQTT_PASSWORD = "password";
 
 //Hacemos uso del dato que se envia y el topic donde se publica
 boolean PublishMqtt(const String& message, const String& topic, uint8_t qos) {
