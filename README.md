@@ -19,7 +19,7 @@ Instala estas bibliotecas si aún no están presentes en tu Arduino IDE.
 
 ##Configura el ESP8266 en Arduino IDE 🔌
 Para poder cargar el código en un ESP8266, necesitas agregar el siguiente enlace a la configuración adicional de "Gestor de URLs Adicionales de Tarjetas" en Arduino IDE:
-# link:(https://arduino.esp8266.com/stable/package_esp8266com_index.json)
+#link:(https://arduino.esp8266.com/stable/package_esp8266com_index.json)
 
 Para hacer esto, ve a Archivo -> Preferencias en Arduino IDE, y en el campo Gestor de URLs Adicionales de Tarjetas, añade el enlace proporcionado arriba.
 
